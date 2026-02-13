@@ -1,0 +1,8 @@
+mass = float(input("Enter the mass in kg :"))
+velocity = float(input("Enter velocity in m/s : "))
+
+momentum = mass*velocity
+print("Momentum is :",momentum)
+
+energy = mass*(velocity **2)
+print("Energy is :",energy)
